@@ -2,9 +2,9 @@ package com.example.orgs.model
 
 import java.math.BigDecimal
 
-abstract class Produto {
+class Produto (
     val nome: String,
     val descricao: String,
-    abstract val valor: BigDecimal
+    val valor: BigDecimal
 
-}
+)
